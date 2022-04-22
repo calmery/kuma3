@@ -34,5 +34,5 @@
     "lint": "prettier --check --ignore-path .gitignore **/*.ts",
     "prepare": ""
   },
-  "version": "0.3.0"
+  "version": "0.4.0"
 }
