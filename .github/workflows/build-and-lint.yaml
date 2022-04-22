@@ -8,7 +8,7 @@ jobs:
         with:
           cache: npm
           node-version: "16.14.2"
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           key: "${{ runner.os }}-node_modules-${{ hashFiles('**/package-lock.json') }}"
           path: "**/node_modules"
@@ -23,7 +23,7 @@ jobs:
         with:
           cache: npm
           node-version: "16.14.2"
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           key: "${{ runner.os }}-node_modules-${{ hashFiles('**/package-lock.json') }}"
           path: "**/node_modules"
@@ -37,7 +37,7 @@ jobs:
         with:
           cache: npm
           node-version: "16.14.2"
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           key: "${{ runner.os }}-node_modules-${{ hashFiles('**/package-lock.json') }}"
           path: "**/node_modules"
