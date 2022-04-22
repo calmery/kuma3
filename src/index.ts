@@ -1,3 +1,3 @@
-import { message } from "~/constants";
+import { message } from "./constants";
 
 console.log(message);
