@@ -1,3 +1,4 @@
 {
+  "**/.czrc": "prettier --parser json --write",
   "**/*.{json,md,ts,yaml}": "prettier --write"
 }

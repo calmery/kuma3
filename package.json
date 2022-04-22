@@ -2,11 +2,6 @@
   "bin": {
     "kuma3": "./cli.js"
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "dependencies": {
     "commander": "9.2.0",
     "dayjs": "1.11.1",
@@ -33,18 +28,6 @@
   ],
   "name": "kuma3",
   "packageManager": "npm@8.7.0",
-  "release": {
-    "branches": [
-      "main"
-    ],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/npm",
-      "@semantic-release/git",
-      "@semantic-release/github"
-    ]
-  },
   "scripts": {
     "build": "tsc",
     "fix": "npm run lint -- --write",
