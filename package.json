@@ -3,6 +3,7 @@
     "kuma3": "./cli.js"
   },
   "dependencies": {
+    "commander": "9.2.0",
     "dayjs": "1.11.1",
     "open": "8.4.0"
   },
