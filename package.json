@@ -12,7 +12,7 @@
   },
   "files": [
     "./cli.js",
-    "./output/**/*.js"
+    "./output/"
   ],
   "name": "kuma3",
   "packageManager": "npm@8.7.0",
