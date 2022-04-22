@@ -16,6 +16,7 @@ jobs:
           GIT_AUTHOR_NAME: calmery
           GIT_COMMITTER_EMAIL: 12670155+calmery@users.noreply.github.com
           GIT_COMMITTER_NAME: calmery
+          GH_TOKEN: "${{ secrets.GH_TOKEN }}"
           NPM_TOKEN: "${{ secrets.NPM_TOKEN }}"
         run: "npx semantic-release"
 
