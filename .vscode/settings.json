@@ -1,0 +1,17 @@
+{
+  "explorer.experimental.fileNesting.enabled": true,
+  "explorer.experimental.fileNesting.patterns": {
+    "package.json": ".npmrc, package-lock.json"
+  },
+  "files.exclude": {
+    "**/.github": true,
+    "**/.gitignore": true,
+    "**/.husky/": true,
+    "**/.lintstagedrc.json": true,
+    "**/cli.js": true,
+    "**/node_modules/": true,
+    "**/output/": true,
+    "**/tsconfig.json": true
+  },
+  "typescript.tsdk": "./node_modules/typescript/lib/"
+}
