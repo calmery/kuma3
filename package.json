@@ -9,6 +9,8 @@
   },
   "devDependencies": {
     "@types/node": "17.0.25",
+    "husky": "7.0.4",
+    "lint-staged": "12.4.0",
     "prettier": "2.6.2",
     "typescript": "4.6.3"
   },
@@ -25,7 +27,8 @@
   "scripts": {
     "build": "tsc",
     "fix": "npm run lint -- --write",
-    "lint": "prettier --check --ignore-path .gitignore **/*.ts"
+    "lint": "prettier --check --ignore-path .gitignore **/*.ts",
+    "prepare": "husky install"
   },
   "version": "0.2.1"
 }
