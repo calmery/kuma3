@@ -32,7 +32,7 @@
     "build": "tsc",
     "fix": "npm run lint -- --write",
     "lint": "prettier --check --ignore-path .gitignore **/*.ts",
-    "prepare": "husky install"
+    "prepare": ""
   },
-  "version": "0.2.1"
+  "version": "0.3.0"
 }
